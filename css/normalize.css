@@ -291,7 +291,7 @@ textarea {
    */
 
 [type="search"] {
-    appearance: textfield;
+  appearance: textfield;
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
