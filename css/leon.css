@@ -144,12 +144,13 @@ body {
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
+  height: 50vh;
 }
 
 .landing .intro-text {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 30%;
   text-align: center;
   width: 320px;
   max-width: 100%;
@@ -168,3 +169,37 @@ body {
   line-height: 1.8;
 }
 /* End Landing Section */
+
+/* Start Features Section */
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f6f6f6;
+}
+
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.features .feat {
+  padding: 20px;
+  text-align: center;
+}
+
+.features .feat i {
+  color: var(--main-color);
+}
+
+.features .feat h3 {
+  font-weight: 800;
+  margin: 30px 0;
+}
+
+.features .feat p {
+  line-height: 1.8;
+  color: #777;
+  font-size: 17px;
+}
+/* End Features Section */
